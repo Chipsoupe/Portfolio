@@ -111,6 +111,15 @@ h1, h2, h3, h4, h5, h6 {
             transition: all 0.3s;
             font-size: 1.05rem;
         }
+
+        
+/* Effet hover sur cta : orange plus foncé + élévation + ombre */
+.cta-button:hover {
+    background-color: #e67600;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
     
 
         /* ===== ABOUT SECTION ===== */
@@ -138,6 +147,14 @@ h1, h2, h3, h4, h5, h6 {
             flex: 1;
            
         }
+
+/* Effet hover sur image: élévation + ombre + Ajout d'un temps de transition*/
+.about-image img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s;
+}
+
 
         .about-image img {
             width: 100%;
@@ -190,6 +207,13 @@ h1, h2, h3, h4, h5, h6 {
             transition: all 0.3s;
         }
       
+        /* Effet hover sur compétences : élévation + ombre + Ajout d'un temps de transition + couleur orange clair*/
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s;
+    background: #ffbc74;
+}
 
         .skill-icon {
             font-size: 3.5rem;
@@ -234,7 +258,13 @@ h1, h2, h3, h4, h5, h6 {
             transition: all 0.3s;
         }
 
-       
+        /* Effet hover sur projets : élévation + ombre + Ajout d'un temps de transition + couleur orange clair*/
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.3s;
+    background: #ffbc74;
+       }
         .project-card:nth-child(2) {
             flex-direction: row-reverse;
         }
@@ -335,6 +365,7 @@ h1, h2, h3, h4, h5, h6 {
             min-height: 120px;
         }
 
+
         .submit-button {
             /* CHANGEMENT DE COULEUR : ORANGE */
             background-color: #FF8400;
@@ -348,6 +379,14 @@ h1, h2, h3, h4, h5, h6 {
             transition: all 0.3s;
             margin-top: 16px;
         }
+
+        /* Effet hover sur submit button : orange plus foncé + élévation + ombre */
+.submit-button:hover {
+    background-color: #e67600;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
 
                /* ===== FOOTER ===== */
         footer {
