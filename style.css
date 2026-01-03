@@ -10,14 +10,17 @@
         /* Import de la police roboto pour les textes */
         body {
             font-family: "Roboto", sans-serif;
-            color: #1d1d1f;
-            background-color: #ffffff;
+            /* Changement la couleur des titres - orange foncé */
+            color: #d97000;
+            /* Changemennt de la couleur du dos de la bannière en orange (même couleur que le CTA) */
+            background-color: #FF8400;
             line-height: 1.6;
         }
+
         /* Import de la police poppins pour les titres */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
-}
+        h1, h2, h3, h4, h5, h6 {
+        font-family: "Poppins", sans-serif;
+        }
 
 
 
@@ -71,6 +74,8 @@ h1, h2, h3, h4, h5, h6 {
         /* ===== HERO SECTION ===== */
         .hero {
             background-color: #ffffff;
+        /* Changement du fond en dégradé : de blanc à orange clair */
+            background: linear-gradient(360deg, #ffffff 0%, #ffb469 100%);
             color: #1d1d1f;
             padding: 120px 0;
             text-align: center;
@@ -185,6 +190,8 @@ h1, h2, h3, h4, h5, h6 {
         /* ===== SKILLS SECTION ===== */
         .skills {
             background-color: #f5f5f7;
+            /* Changement du fond en dégradé : de blanc à orange clair */
+            background: linear-gradient(180deg, #ffffff 0%, #ffb469 100%);
             padding: 120px 0;
         }
 
@@ -212,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     transition: all 0.3s;
-    background: #ffbc74;
+    background: #ebebeb;
 }
 
         .skill-icon {
@@ -316,6 +323,8 @@ h1, h2, h3, h4, h5, h6 {
         /* ===== CONTACT SECTION / FORM ===== */
         .contact {
             background-color: #f5f5f7;
+            /* Changement du fond en dégradé : de blanc à orange clair */
+            background: linear-gradient(180deg, #ffffff 0%, #ffb469 100%);
             padding: 120px 0;
         }
 
