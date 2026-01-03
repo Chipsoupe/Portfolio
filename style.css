@@ -94,7 +94,8 @@
 
         .cta-button {
             display: inline-block;
-            background-color: #0071e3;
+            /* CHANGEMENT DE COULEUR : ORANGE */
+            background-color: #FF8400;
             color: white;
             padding: 14px 32px;
             border-radius: 980px;
@@ -265,7 +266,8 @@
 
         .project-link {
             display: inline-block;
-            color: #0071e3;
+            /* CHANGEMENT DE COULEUR : ORANGE */
+            color: #FF8400;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
@@ -327,7 +329,8 @@
         }
 
         .submit-button {
-            background-color: #0071e3;
+            /* CHANGEMENT DE COULEUR : ORANGE */
+            background-color: #FF8400;
             color: white;
             padding: 14px;
             border: none;
